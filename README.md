@@ -1,5 +1,5 @@
 # udacity_fullstack_project2
-udacity Full Stack Web Developer Nanodegree Project 2
+udacity Full Stack Web Developer Nanodegree Project 2 - Tournament Results
 
 ##Files
 * tournament.py -- implementation of a Swiss-system tournament
@@ -21,5 +21,4 @@ vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
 7. After a match, players have updated standings.
 8. After one match, players with one win are paired.
 Success!  All tests pass!
-
 ```
