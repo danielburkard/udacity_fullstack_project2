@@ -7,9 +7,21 @@ udacity Full Stack Web Developer Nanodegree Project 2 - Tournament Results
 * tournament_test.py -- Test cases for tournament.py
 
 ##Usage
+make sure database tournamanet exists
+```bash
+vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ psql
+psql (9.3.5)
+Type "help" for help.
+
+vagrant=> CREATE DATABASE tournament;
+CREATE DATABASE
+vagrant=> \q
+```
+load SQL schema 
 ```bash
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ psql tournament < tournament.sql 
 ```
+run test
 ```bash
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py 
 1. Old matches can be deleted.
